@@ -9,7 +9,7 @@
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java'
 apply plugin: 'eclipse'
-apply plugin: 'application'
+
 
 
 
@@ -36,12 +36,10 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
 	compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.10.0'
 	// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
-	compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '3.4.5'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.10.0'
 	// https://mvnrepository.com/artifact/org.mybatis/mybatis
 	compile group: 'org.mybatis', name: 'mybatis', version: '3.4.5'
 
-	
-	compile fileTree(include: ['*.jar'], dir:'myLib')    
     
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'

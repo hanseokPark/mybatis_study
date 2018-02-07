@@ -3,7 +3,7 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-	<properties resource="application.properteis"/>
+	<properties resource="application_properties"/>
 	
 	<typeAliases>
 		<typeAlias type="kr.or.dgit.mybatis_study_dto.Student" alias="Student"/>
